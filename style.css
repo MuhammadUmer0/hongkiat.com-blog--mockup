@@ -15,6 +15,21 @@ header{
     height: 50px;
     width: 100%;
 }
+.logoNav{
+    width: 60%;
+    background-color: yellow;
+}
+nav{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
 .logo{
     font-family: "PT Serif", Helvetica, Arial, sans-serif;
     font-size: 18px;
