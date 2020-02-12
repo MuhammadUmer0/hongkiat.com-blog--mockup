@@ -100,7 +100,7 @@ section {
   align-items: center;
 }
 .blogRow {
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,7 +111,7 @@ section {
 .blog {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 450px;
   width: 340px;
   background-color: yellowgreen;
 }
@@ -149,4 +149,17 @@ section {
 .heading a:hover {
   text-decoration: underline;
   color: #2c87e2;
+}
+.discription {
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #808080;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 12px;
+  color: #808080;
 }
