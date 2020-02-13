@@ -104,16 +104,16 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #26519e;
+
   margin-top: 4em;
   margin-bottom: 2em;
 }
 .blog {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 450px;
   width: 340px;
-  background-color: yellowgreen;
 }
 .tag {
   width: 84px;
@@ -122,13 +122,16 @@ section {
   transition: 0.3s;
   color: white;
   text-transform: uppercase;
-  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tag:hover {
   width: 84px;
   height: 27px;
   background-color: #2c87e2;
-  text-align: center;
   color: white;
   text-transform: uppercase;
 }
@@ -141,12 +144,13 @@ section {
   font-size: 24px;
   line-height: 26px;
   font-weight: 400;
+  margin-bottom: 0.5em;
 }
 .blog a {
   text-decoration: none;
   color: black;
 }
-.heading a:hover {
+.heading:hover {
   text-decoration: underline;
   color: #2c87e2;
 }
@@ -156,10 +160,34 @@ section {
   font-weight: 400;
   line-height: 26px;
   color: #808080;
+  margin-bottom: 0.5em;
 }
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 12px;
   color: #808080;
+}
+footer {
+  margin-top: 3em;
+  height: 225px;
+  display: flex;
+  background-color: #262626;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b3b3;
+}
+footer a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+footer a:hover {
+  text-decoration: underline;
 }
