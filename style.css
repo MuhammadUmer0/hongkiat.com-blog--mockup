@@ -88,15 +88,30 @@ main {
   height: 410px;
   background-color: yellow;
 }
-/* .img1{
-    height: 410px;
+.img1{
+    height: 409px;
     width: 471px;
     background-image: url("images/valentines-day-mobile-wallpapers.jpg");
-} */
+    position: relative;
+    
+}
+.title{
+    height: 409px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    color: white;
+    font-family: "FuraCode Nerd Font", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
 section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .blogRow {
